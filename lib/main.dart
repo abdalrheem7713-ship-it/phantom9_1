@@ -23,7 +23,7 @@ import 'package:crypto/crypto.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
-import 'package:pointycastle/export.dart';
+import 'package:pointycastle/export.dart' hide State, Padding;
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
